@@ -1,0 +1,42 @@
+.taskWrapper {
+    background-color: #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 14px 1px rgba(0, 0, 0, .2);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.taskHeading {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.taskDescription {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+body{
+     background-color: bisque;
+ }
+
+.btn{
+    background-color: #209cb5;
+    border-color:#209cb5;
+}
+
+.btn-primary:hover {
+    background-color: #0d6efdba;
+    border-color:#0d6efdba;
+}
+
+.form-control:focus{
+    border-color: #209cb5;
+    box-shadow: 0 0 0 0.25rem #0ab2d338;
+}
+
+.taskCompleted{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
